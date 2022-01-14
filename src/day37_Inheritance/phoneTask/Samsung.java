@@ -18,5 +18,12 @@ public class Samsung extends Phone {
 
 }
 /*
-
+Create a subclass of Phone named Samsung:
+                Variables:
+                    brand, model, size, price, color
+                Methods:
+                    call(long phoneNumber)
+                    text(long phoneNumber)
+                    freeze()
+                    toString()
  */

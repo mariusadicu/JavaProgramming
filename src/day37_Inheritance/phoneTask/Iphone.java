@@ -19,5 +19,13 @@ public class Iphone extends Phone {
 
 }
 /*
-
+1.2 Create a subclass of Phone named IPhone:
+                Variables:
+                    brand, model, size, price, color
+                Methods:
+                    call(long phoneNumber)
+                    text(long phoneNumber)
+                    faceTime(long phoneNumber)
+                    faceTime(String email)
+                    toString()
  */

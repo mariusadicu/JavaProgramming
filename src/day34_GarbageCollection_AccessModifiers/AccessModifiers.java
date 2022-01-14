@@ -7,12 +7,15 @@ public class AccessModifiers {
     private static int privateData = 300;// access modifiers :
 
 
-
     public static void method1(){
         System.out.println("Public");
-    }   static void method2(){
+    }
+
+    static void method2(){
         System.out.println("Default");
-    }  private static void method3(){
+    }
+
+    private static void method3(){
         System.out.println("Private");
     }
 

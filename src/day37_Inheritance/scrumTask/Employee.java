@@ -37,5 +37,6 @@ public class Employee extends Person { // Employee Is A Person
 
 }
 /*
-
+name, gender, age, jobTitle, id, salary, companyName
+ work(), toString()
  */

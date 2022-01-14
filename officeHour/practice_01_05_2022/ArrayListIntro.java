@@ -1,32 +1,37 @@
 package practice_01_05_2022;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+
 public class ArrayListIntro {
 
-    /*
-     * ArrayList is a resizable-array implementation of the List interface.
-     *
-     * The dif between Array and Arraylist Arrays have fixed length, ArrayList does
-     * not have fixed size Arrays accept primitive types and object, ArrayList
-     * stores only objects. A print statement we can print the ArrayList without
-     * using to string or loop.
+    public static void main(String[] args) {
 
-     * list.add()
-     * list.get()
-     * list.set()
-     * list.indexOf()
-     * list.lastIndexOf()
-     * list.size()
-     * list.contains()
-     * list.remove()
-     * Bulk Operations: Perform an operation on an entire Collection.
-     * removeAll()
-     * retainAll()
-     * removeIf()
-     * clear()
-     * isEmpty()
-     * Collections.sort(list)
-     * Collections.frequency(list, object)
-     */
+        /*
+         * ArrayList is a resizable-array implementation of the List interface.
+         *
+         * The dif between Array and Arraylist Arrays have fixed length, ArrayList does
+         * not have fixed size Arrays accept primitive types and object, ArrayList
+         * stores only objects. A print statement we can print the ArrayList without
+         * using to string or loop.
+
+         * list.add()
+         * list.get()
+         * list.set()
+         * list.indexOf()
+         * list.lastIndexOf()
+         * list.size()
+         * list.contains()
+         * list.remove()
+         * Bulk Operations: Perform an operation on an entire Collection.
+         * removeAll()
+         * retainAll()
+         * removeIf()
+         * clear()
+         * isEmpty()
+         * Collections.sort(list)
+         * Collections.frequency(list, object)
+         */
 /*
     ArrayList<String> cities=new ArrayList<>();
 
@@ -41,7 +46,7 @@ public class ArrayListIntro {
 
              System.out.println(cities);
      */
-             // add(index, Object): adds the element to the given index (index must be exist)
+        // add(index, Object): adds the element to the given index (index must be exist)
         /*     cities.add(0,"Vienna");
          System.out.println(cities);
 
@@ -101,4 +106,6 @@ public class ArrayListIntro {
         System.out.println(cities.size()==0?"list is empty":cities);
 */
 
+
+    }
 }
