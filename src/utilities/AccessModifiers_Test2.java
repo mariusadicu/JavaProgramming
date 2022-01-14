@@ -1,6 +1,7 @@
 package utilities;
 
-import day35_Encapsulation.day34_GarbageCollection_AccesssModifiers.AccessModifiers;
+import day34_GarbageCollection_AccessModifiers.AccessModifiers;
+
 
 public class AccessModifiers_Test2 {
 
@@ -14,6 +15,8 @@ public class AccessModifiers_Test2 {
         AccessModifiers.method1();
         // AccessModifiers.method2();
         // AccessModifiers.method3();
+
+
 
 
 
