@@ -13,10 +13,16 @@ public class Tester extends Employee{
     }
 
 
+    @Override
+    public void work() {
+        System.out.println(getJobTitle()+" "+getName()+" is testing the application");
+    }
+
+
 
 }
 /*
-3. Create a sub class of Employee named Tester
+3. Create a subclass of Employee named Tester
 
             Override the work method
 
