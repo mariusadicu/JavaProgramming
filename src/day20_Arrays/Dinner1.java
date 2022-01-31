@@ -1,5 +1,7 @@
 package day20_Arrays;
 
+import java.lang.reflect.Array;
+import java.util.ArrayList;
 import java.util.Arrays;
 
 public class Dinner1 {
@@ -13,8 +15,15 @@ public class Dinner1 {
 
         String[] classmates = {"Serghei", "Hulya", "IrinaO", "Mert", "Anastasia", "Hilal", "Turan", "Edison", "Marius", "IrinaD"};
 
+        //System.out.println(Arrays.toString(classmates)); // use Arrays w an 's' to print
+
+
         System.out.println(Arrays.toString(classmates));
 
+
+        System.out.println(classmates[5]);
+
+        //classmates[0] = "Serghey";
 
     }
 }
